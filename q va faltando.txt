@@ -1,0 +1,4 @@
+Que va faltando:
+1. Hover effect
+2. Actives
+3. finishing mobil layout

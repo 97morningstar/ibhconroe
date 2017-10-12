@@ -1,0 +1,559 @@
+/*** fuentes  ***/
+
+
+
+
+/**** Encabezado ****/
+div.encabezado{
+	border-bottom: 2px solid #e2e2e2;
+	background: #e2e2e2;
+}
+
+div.encabezado-frase{
+	margin-top: 12px;
+	font-size: 12px;
+}
+
+div.encabezado-info-text p{
+	margin-bottom: 0px;
+	margin-right: 10px;
+	margin-top: 8px;
+}
+
+div.encabezado-button button{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: #0d66b2;
+	border-color: #0d66b2;
+	font-size: 12px;
+	padding: 3px 5px;
+}
+
+
+
+/**** Fin Enzabezado ****/
+
+/***** as ******/
+a.art{
+	text-decoration: none;
+	color: #000;
+}
+a.art:hover, a.art:active, a.art:link{
+	text-decoration: none;
+	color: #000;
+}
+
+a.addresss{
+	text-decoration: none;
+	color: #fff;
+}
+
+a.addresss:hover, a.addresss:active, a.addresss:link{
+	text-decoration: none;
+	color: #000;
+}
+
+	/*** slider ***/
+div.slide-show{
+	position: relative;
+}
+
+.slide-buttons{
+	position: absolute;
+	right: 160px;
+	bottom: 160px;
+}
+
+div.slide-info{
+	position: absolute;
+	background: rgba(3, 43, 79, 0.79);
+	bottom: 30px;
+	color: #fff;
+	height: 100px;
+	padding: 30px;
+	width: 100%;
+
+}
+
+
+
+/**** Fin Header ******/
+
+/***** Contenido resposive ********/
+
+div.line{
+	margin-top: 20px;
+	width: 200px;
+	border-top: 2px solid #000;
+}
+
+h2{
+	font-size: 50px;
+	font-family: 'Give You Glory', cursive;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div.imagenes{
+	margin-top: 90px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container{
+	padding: 25px;
+}
+
+img.images{
+	border-radius: 50%;
+}
+
+div.welcome{
+
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div.welcome p{
+	font-family: 'Lora', serif;
+	font-size: 18px;
+}
+
+
+p.texto{
+	font-family: 'Lora', serif;
+	font-size: 16px;
+}
+
+div.slide-info p{
+	font-family: 'Courgette', cursive;
+	font-size: 16px;
+}
+/****** quote verse **************/
+div.quote{
+	margin-top: 50px;
+	text-align: center;
+}
+
+div.quote p{
+	font-size: 50px;
+	font-family: 'Tangerine', cursive;
+}
+
+/********** google map ************/
+
+div.map{
+	margin-top: 90px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/******** footer ******************/
+
+footer{
+	background: rgb(32, 32, 32);
+	color: #fff;
+}
+
+footer div.footer-info, footer div.footer-navs{
+	margin-top: 80px;
+}
+
+h1{
+	font-weight: bold;
+}
+
+h5{
+	font-size: 20px !important;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.footer-info{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.footer-info p.address{
+	font-size: 12px;
+}
+
+footer ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+p.design{
+	font-size: 10px;
+}
+
+
+div.footer-navs a{
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div.footer-navs ul li{
+	font-size: 13px;
+	margin-bottom: 20px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h3{
+	font-family: 'Lora', cursive;
+	font-weight: bold;
+}
+
+h6{
+	font-size: 15px;
+	font-weight: 700 !important;
+	margin-bottom: 20px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+footer{
+	font-family: 'Lora', serif;
+	letter-spacing: 0.5px;
+}
+
+
+footer div a:hover{
+	color:rgb(10, 120, 120);
+}
+
+/******* Fin footer **************/
+/***** nav ********/
+#navbar-1 ul li a{
+	color: #000;
+}
+
+ul.redes li{
+	display: inline;
+	margin-right: 30px;
+}
+
+footer ul{
+	padding-left: 20px;
+}
+
+.navbar-inverse .navbar-toggle {
+   background: rgb(3, 43, 79);
+}
+
+button.navbar-toggle.collapsed{
+	top: 30px;
+	background: rgb(3, 43, 79);
+	margin:0;
+}
+
+button.navbar-toggle{
+	top: 30px;
+	background: rgb(3, 43, 79);
+	margin:0;
+}
+
+.navbar-inverse {
+    background-color: rgba(34, 34, 34, 0);
+    border-color: rgba(8, 8, 8, 0);
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color:rgba(34, 34, 34, 0);
+}
+
+
+
+/******* Media queries *******/
+
+
+/************ Estilos para min-width: 768px y max-width: 991px tablet y ipads ***************/
+@media (min-width: 768px) and (max-width: 991px){
+	ul.navbar-nav{
+	font-family: 'Lora', serif;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+	}
+
+	h1{
+		font-family: 'Courgette', cursive;
+		font-size: 35px; 
+		text-align: center;
+		margin-bottom: 30px;
+		margin-top: 30px;
+		margin-left: 10px;
+	}
+
+	li.fix{
+		margin-left: 100px;
+	}
+
+	ul.redes li{
+		display: inline;
+		margin-right: 20px;
+	}
+	footer ul{
+		padding-left: 0px;
+	}
+
+	div#navbar-1{
+			padding-right: 0px;
+	}	
+	p.texto{
+		margin-bottom: 60px !important;
+	}
+
+		/***** probr animacion ************/
+	nav ul li a,
+	nav ul li a:after,
+	nav ul li a:before {
+	  transition: all .5s;
+	}
+	nav ul li a:hover {
+	  color: rgb(0, 132, 132) !important;
+
+	}
+
+	nav.stroke ul li a{
+	  position: relative;
+	}
+
+	nav.stroke ul li a:after{
+	  position: absolute;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  margin: auto;
+	  width: 0%;
+	  content: '.';
+	  color: transparent;
+	  background: rgb(0, 132, 132);
+	  height: 2px;
+	}
+	nav.stroke ul li a:hover:after {
+	  width: 100%;
+	}
+
+
+	nav.stroke ul li a.actives:after{
+		width: 100%;
+	}
+
+}
+
+/**** header min-992px grande ***********/
+
+@media (min-width: 992px){
+	/**** header ****/
+	h1{
+		font-size: 50px;
+		font-family: 'Courgette', cursive;
+		text-align: center;
+		margin-bottom: 30px;
+		margin-top: 30px;
+		margin-left: 0px;
+	}
+
+	div#navbar-1.collapse.navbar-collapse{
+		margin-top: 55px;
+		font-family: 'Lora', serif;
+		padding-right: 0px;
+	}
+
+
+
+	/***** content welcome p *****/
+	div.welcome p{
+		text-align: center;
+		width: 600px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	/**** imagenes redond *****/
+
+	div.imgg p{
+		width: 200px;
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	/**** map ******/
+
+	div.map-info-1, div.map-info-2{
+		height: 215px;
+	}
+
+	div.map-info-1{
+		background: url('../images/slide-22.jpg');
+		margin-bottom: 20px;
+	}
+	div.map-info-2{
+		background: url('../images/slide-33.jpg');
+	}
+
+	ul.redes li{
+		display: inline;
+		margin-right: 30px;
+	}
+
+	footer ul{
+		padding-left: 0px;
+	}
+
+		/***** probr animacion ************/
+	nav ul li a,
+	nav ul li a:after,
+	nav ul li a:before {
+	  transition: all .5s;
+	}
+	nav ul li a:hover {
+	  color: rgb(0, 132, 132) !important;
+
+	}
+
+	nav.stroke ul li a{
+	  position: relative;
+	}
+
+	nav.stroke ul li a:after{
+	  position: absolute;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  margin: auto;
+	  width: 0%;
+	  content: '.';
+	  color: transparent;
+	  background: rgb(0, 132, 132);
+	  height: 2px;
+	}
+	nav.stroke ul li a:hover:after {
+	  width: 100%;
+	}
+
+	nav.stroke ul li a.actives:after{
+		width: 100%;
+	}
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1046px){
+
+
+	h1 {
+		font-size: 40px;
+		font-family: 'Courgette', cursive;
+		text-align: center;
+		margin-bottom: 30px;
+		margin-top: 30px;
+		margin-left: 0px;
+	}
+
+		/***** probr animacion ************/
+	nav ul li a,
+	nav ul li a:after,
+	nav ul li a:before {
+	  transition: all .5s;
+	}
+	nav ul li a:hover {
+	  color: rgb(0, 132, 132) !important;
+
+	}
+
+	nav.stroke ul li a{
+	  position: relative;
+	}
+
+	nav.stroke ul li a:after{
+	  position: absolute;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  margin: auto;
+	  width: 0%;
+	  content: '.';
+	  color: transparent;
+	  background: rgb(0, 132, 132);
+	  height: 2px;
+	}
+	nav.stroke ul li a:hover:after {
+	  width: 100%;
+	}
+
+
+	nav.stroke ul li a.actives:after{
+		width: 100%;
+	}
+}
+
+
+/*  para los textos luego
+.border{
+	animation-duration: 1s;
+  animation-name: nav;
+}
+
+@keyframes nav {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}*/
+
+/******** animaciones h1  *********/
+
+ h1 a.smooth{
+	color: rgb(50, 50, 50); !important;
+	transition-property: color !important;
+	transition-duration: .5s !important;
+	text-decoration: none;
+}
+
+
+	h1 a.smooth:hover{
+	  color: rgb(10, 120, 120) !important;
+	}
+
+
+/***** animation imgss *************/
+.hover15 figure img {
+	-webkit-transform: rotate(40deg) scale(1.4);
+	transform: rotate(40deg);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+
+}
+.hover15 figure:hover img {
+	-webkit-transform: rotate(0) scale(1);
+	transform: rotate(0);
+
+		-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}

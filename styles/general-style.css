@@ -506,6 +506,30 @@ button.navbar-toggle{
 }
 
 
+/**************** para moviles ******************/
+
+
+@media (max-width: 767px){
+	h1 {
+		font-size: 40px;
+		font-family: 'Courgette', cursive;
+		text-align: center;
+		margin-bottom: 30px;
+		margin-top: 30px;
+		margin-left: 0px;
+	}
+
+
+
+
+}
+
+
+
+
+
+
+
 /*  para los textos luego
 .border{
 	animation-duration: 1s;
